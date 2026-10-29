@@ -1,0 +1,49 @@
+{
+  "key": "d36cc0e575597ad822a76db7e4a89f3c",
+  "vectors": [
+    {
+      "prompt": "a cat",
+      "ratio": "1:1",
+      "style": "anime-v1",
+      "seed_id": null,
+      "steps": null,
+      "cfg_scale": null,
+      "negative_prompt": null,
+      "canonical": "prompt=a cat&ratio=1:1&style=anime-v1",
+      "signature": "d1fa12c6d14a1392f2eccb12e64c0060171714e7890c07c9fc0da3e7d14b15fc"
+    },
+    {
+      "prompt": "猫 在 屋顶",
+      "ratio": "2:3",
+      "style": "oil-v2",
+      "seed_id": "12345",
+      "steps": "30",
+      "cfg_scale": "7.5",
+      "negative_prompt": "blurry, low quality",
+      "canonical": "prompt=猫 在 屋顶&ratio=2:3&style=oil-v2&seed_id=12345&steps=30&cfg_scale=7.5&negative_prompt=blurry, low quality",
+      "signature": "3f56a9640a6ce5327e0789e35807a2029a348d963963cbad33df9409b37fed21"
+    },
+    {
+      "prompt": "multi word prompt",
+      "ratio": "3:2",
+      "style": "photo-v3",
+      "seed_id": null,
+      "steps": "20",
+      "cfg_scale": null,
+      "negative_prompt": "ugly&bad",
+      "canonical": "prompt=multi word prompt&ratio=3:2&style=photo-v3&steps=20&negative_prompt=ugly&bad",
+      "signature": "ceab6fb03dcd0894f78955c8a86cdf76db3665d12393f290eb219c3b6451d5eb"
+    },
+    {
+      "prompt": "emoji 🎨 test",
+      "ratio": "1:1",
+      "style": "render3d-v1",
+      "seed_id": "0",
+      "steps": null,
+      "cfg_scale": "9",
+      "negative_prompt": null,
+      "canonical": "prompt=emoji 🎨 test&ratio=1:1&style=render3d-v1&seed_id=0&cfg_scale=9",
+      "signature": "0dd2dc7558a7b6e488bb3f137d469978984e18a446b4327beff363556269cc5c"
+    }
+  ]
+}

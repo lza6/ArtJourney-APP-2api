@@ -1,0 +1,62 @@
+{
+  "target": "http://127.0.0.1:18612",
+  "generated_at": "2026-10-29 23:24:08",
+  "levels": [
+    {
+      "concurrency": 1,
+      "requests": 8,
+      "ok": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "wall_s": 49.02,
+      "rps": 0.16,
+      "p50_ms": 6057.4,
+      "p90_ms": 6072.4,
+      "p99_ms": 6633.4,
+      "mean_ms": 6126.8,
+      "sample_errors": []
+    },
+    {
+      "concurrency": 4,
+      "requests": 8,
+      "ok": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "wall_s": 12.16,
+      "rps": 0.66,
+      "p50_ms": 6085.9,
+      "p90_ms": 6087.2,
+      "p99_ms": 6088.0,
+      "mean_ms": 6078.8,
+      "sample_errors": []
+    },
+    {
+      "concurrency": 8,
+      "requests": 8,
+      "ok": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "wall_s": 6.19,
+      "rps": 1.29,
+      "p50_ms": 6177.5,
+      "p90_ms": 6182.5,
+      "p99_ms": 6185.2,
+      "mean_ms": 6173.8,
+      "sample_errors": []
+    },
+    {
+      "concurrency": 16,
+      "requests": 8,
+      "ok": 8,
+      "failed": 0,
+      "success_rate": 100.0,
+      "wall_s": 6.21,
+      "rps": 1.29,
+      "p50_ms": 6200.3,
+      "p90_ms": 6204.6,
+      "p99_ms": 6206.0,
+      "mean_ms": 6198.7,
+      "sample_errors": []
+    }
+  ]
+}
