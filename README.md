@@ -118,6 +118,15 @@ python bench/bench.py --concurrency 1,4,8,16 --requests 8
 
 ---
 
+## 坑位备忘
+
+- **Firebase 直连被 reset**：`firebaseio.com` / `firebaseremoteconfig.googleapis.com` 在国内必须走代理，
+  `curl --noproxy '*'` 会是 `000`，别误判成"节点已删"。
+- **端口别用 8900–8990**：本机该段被历史 demo 服务占满（实测 8914 上跑着别的项目的网关，
+  请求会静默打到别人服务上）。测试已改为动态空闲端口，手工起服务请用 186xx。
+- **签名必须与 multipart 字段完全同源**：canonical 串里的 `prompt/ratio/style/...` 必须和实际表单值逐字节一致，
+  否则 401；`negative_prompt` 里含 `&` 会污染分隔符 —— 这是原码行为，照做即可（服务端同样按原码算）。
+
 ## 目录
 
 ```
